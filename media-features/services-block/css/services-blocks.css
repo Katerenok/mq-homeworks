@@ -1,16 +1,16 @@
+.section__header {
+	font-size: 10px;
+}
+
+.post {
+	font-size: 10px;
+}
+
 @media (min-width: 481px) {
 	.section__title {
 		font-size: 2.4em;
 	}
-}
 
-@media (max-width: 480px) {
-	.section__title {
-		font-size: 2em;
-	}
-}
-
-@media (min-width: 481px) {
 	.post__name {
 		font-size: 2.1em;
 		margin: auto; 
@@ -18,8 +18,13 @@
 }
 
 @media (max-width: 480px) {
+	.section__title {
+		font-size: 2em;
+	}
+
 	.post__name {
 		font-size: 1.8em;
 		margin: auto; 
 	}
 }
+
