@@ -17,6 +17,5 @@
 @media (max-width: 960px) {
 	.aside__menu {
 		display: none;
-		/*visibility: hidden;*/
 	}
 }
