@@ -10,7 +10,7 @@
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) and (orientation: landscape) {
 	.home {
 		background-image: url("../img/wedding2.jpg");
 	}
